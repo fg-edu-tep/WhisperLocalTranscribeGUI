@@ -66,6 +66,15 @@ ffmpeg -version
 
 ### 3. Instalar las dependencias en Python
 
+Si vas a ejecutar el script directamente con Python, asegúrate de instalar también los siguientes paquetes necesarios:
+
+```bash
+pip install git+https://github.com/openai/whisper.git
+pip install torch
+pip install numpy
+pip install tqdm
+```
+
 ```bash
 pip install git+https://github.com/openai/whisper.git
 ```
